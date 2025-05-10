@@ -1,0 +1,10 @@
+lcs:bin(chameleon)
+
+$config 
+    []
+tag: SmartUpdate
+cert: use.ext(mint-cd) 
+upd: main framework(program) executive-handle 
+
+!end 
+

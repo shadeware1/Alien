@@ -1,0 +1,42 @@
+
+
+lcs:bin(chameleon) 
+
+$config 
+
+#temp-db 
+    [caputre:ext(mint)] 
+active data: store.local in codeFile = local_cache 
+data store: while.catch(only) 
+
+#sig 
+    [packet_cache:ext(mint)]
+packets: store in codeFile = local_cache *with; anom parse 
+
+!end 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
